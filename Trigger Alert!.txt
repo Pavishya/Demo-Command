@@ -1,0 +1,34 @@
+"Trigger Alert! "
+ + "%0D%0APatient-ID%20%20%20%20%20       :%20" + IFNULL(STR([Patient ID]), "N/A") 
++ "%0D%0ATemperature       :%20" + IFNULL(STR(ROUND([Temp])), "N/A") 
++ "%0D%0ARespiratory%20Rate:%20" + IFNULL(STR(ROUND([Resp])), "N/A") 
++ "%0D%0AWBC%20Count%20%20%20       :%20" + IFNULL(STR(ROUND([WBC])), "N/A") 
++ "%0D%0AHR%20%20%20%20%20%20%20%20%20                :%20" + IFNULL(STR(ROUND([HR])), "N/A") 
++ "%0D%0APaCO2%20%20%20%20%20%20            :%20" + IFNULL(STR(ROUND([PaCO2])), "N/A") 
++ "%0D%0A%0D%0AThank%20you"
++ "%0D%0A%0D%0ABY SEPSIS-AVENGERS(TEAM-7)"
+
+
+
+
+
+
+
+Subject: Estimated Waiting Time for Organ Transplant
+
+"Hi ,
+
+We are reaching out to inform you that the current estimated waiting time for your organ transplant is approximately X "+ IFNULL(STR([Waittime]), "N/A") 
++ "days. Please note that this timeframe may vary based on availability and compatibility.Our team continues to monitor your case, and we will notify you of any updates. For further assistance, you can contact our Transplant Coordinator.
+
+Thank you for your understanding.
+ 
+Sincerely,
+OPO Data Diggers Team"
+
+
+
+https://public.tableau.com/app/profile/pavishya.janakiraman/viz/Team3Data-Diggers_17292819466460/Sheet18?publish=yes
+https://public.tableau.com/app/profile/pavishya.janakiraman/viz/Team3Data-Diggers_17292819466460/Sheet21?publish=yes
+
+https://public.tableau.com/app/profile/pavishya.janakiraman/viz/Team3Data-Diggers_17292819466460/T3-Pavishya?publish=yes
